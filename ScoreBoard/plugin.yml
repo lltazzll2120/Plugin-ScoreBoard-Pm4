@@ -1,0 +1,6 @@
+name: ScoreBoard
+main: Tazz\ScoreBoard\Main
+api: [4.0.0]
+version: 3.0.0
+author: Tazz 
+description: Add fully customizable scoreboards to your server.

@@ -1,0 +1,40 @@
+---
+#Author: Tazz
+
+# NE MODIFIEZ PAS CETTE  VALUE.
+#  UNIQUEMENT POUR USAGE  USE.
+config-version: 7
+
+# Définissez cette valeur sur true si vous souhaitez activer les tableaux de bord par monde.
+# Ensuite, modifiez la clé des tableaux de bord dans data.yml pour répondre à vos besoins.
+per-world-scoreboards: false
+
+# Si vous avez activé les tableaux de bord par monde et que vous souhaitez afficher un tableau de bord par défaut pour un monde
+# dont vous n’avez pas défini le tableau de bord dans data.yml sous la touche tableaux de bord, puis définissez-le sur true.
+use-default-score-lines: false
+
+# Le montant en secondes après lequel le tableau de bord serait mis à jour.
+# Augmentez cette valeur si votre serveur semble être à la traîne.
+# Valeur par défaut : 3 secondes.
+update-interval: 3
+
+# Définissez le fuseau horaire de {time} selon vos préférences.
+# false - Suivez l’heure du serveur/machine sans modifications.
+# Pour une liste de fuseaux horaires, vous pouvez visiter: https://secure.php.net/manual/timezones.php
+# Exemple: « Amérique / New_York » - Cela définira l’heure de New York.
+timezone: false
+
+# Définissez le format d’heure que vous souhaitez afficher. Ne fonctionnera que si vous ajoutez {time} dans les lignes de score dans data.yml.
+# H - heures
+# i - minutes
+# s - secondes
+# Vous pouvez obtenir plus d’informations à ce sujet ici: http://php.net/manual/function.date.php
+time-format: "H:i:s"
+
+# Définissez le format de date que vous souhaitez afficher. Ne fonctionnera que si vous ajoutez {date} dans les lignes de score dans data.yml.
+# d - date (01-31)
+# m - mois (01-12)
+# Y - année (aaaa)
+# Vous pouvez obtenir plus d’informations à ce sujet ici: http://php.net/manual/function.date.php
+date-format: "d-m-Y"
+...
